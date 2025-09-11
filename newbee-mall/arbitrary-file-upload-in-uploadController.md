@@ -66,18 +66,6 @@
 - System integrity compromise, enabling attackers to modify files, install backdoors, and maintain persistent access
 
 
-## Description
-1. **Vulnerability Details:**
-    - In the this php code, username parameter is directly concatenated into SQL statement
-    - Both locations contain classic SQL injection vulnerabilities
-    - No input validation or escaping mechanisms implemented
-
-2. **Attack Vectors:**
-    - Attackers can manipulate SQL query structure using special characters
-    - Additional information can be extracted using UNION queries
-    - Database information can be obtained through boolean-based blind injection
-    - Error-based injection might reveal more information
-
 ## Code Scan
 
 this vulnerability find by [IRify](ssa.to) :
