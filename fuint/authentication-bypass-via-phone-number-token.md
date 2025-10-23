@@ -1,6 +1,6 @@
 ## Title: [Authentication Bypass via Predictable Token] in [fuint] <= [v1.0]
 
-# **BUG_Author:** [Security Research Team]
+# **BUG_Author:**  [intSheep,yaklang. io, IRify]
 
 ## Product Information
 - **Software Link:** [https://github.com/fushengqian/fuint](https://github.com/fushengqian/fuint)
